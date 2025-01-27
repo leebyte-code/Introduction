@@ -1,0 +1,47 @@
+To redirect a user to a specific website using HTML, you can use the <meta> tag or JavaScript. Here's an example:
+
+Using the <meta> tag
+
+This method redirects the user after a specific delay (e.g., 5 seconds):
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5; url=https://www.example.com">
+    <title>Redirecting...</title>
+</head>
+<body>
+    <p>You are being redirected to <a href="https://www.example.com">https://www.example.com</a>.</p>
+    <p>If the redirection does not happen automatically, please click the link above.</p>
+</body>
+</html>
+
+Using JavaScript
+
+This method redirects the user immediately when the page is loaded:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Redirect immediately
+        window.location.href = "https://www.pornhub.com";
+    </script>
+</head>
+<body>
+    <p>You are being redirected to <a href="https://www.example.com">https://www.example.com</a>.</p>
+</body>
+</html>
+
+Explanation
+
+Replace https://www.example.com with the URL you want to redirect the user to.
+
+Use the <meta> tag for a timed redirection or JavaScript for instant redirection.
+
+
